@@ -72,7 +72,7 @@ export default class TransactionsModal extends Component {
                             </span>
                         </div>
                         <h1>{this.state.header}</h1>
-                        <p>hello Beotch 1</p>
+                        <p>hello there {this.state.step}</p>
                         <p><button id = 'ok' onClick={this.nextStep}>Ok</button></p>
                         <p><button id = 'close-modal' onClick={this.close}>Close</button></p>
                     </div>
@@ -93,7 +93,7 @@ export default class TransactionsModal extends Component {
                             </span>
                         </div>
                         <h1>{this.state.header}</h1>
-                        <p>hello Beotch 2</p>
+                        <p>hello bud {this.state.step}</p>
                         <p><button id = 'ok' onClick={this.close}>Ok</button></p>
                         <p><button id = 'close-modal' onClick={this.close}>Close</button></p>
                     </div>

@@ -28,19 +28,6 @@ module.exports = {
         contentBase : '/' ,
         quiet: false,
         stats: { colors: true },
-        proxy: {
-            "/": {
-                "target": {
-                    "host": "index.js",
-                    "protocol": 'http:',
-                    "port": 8080
-                },
-                ignorePath: true,
-                changeOrigin: true,
-                secure: false
-            }
-        }
-
     },
     module: {
         rules: [
